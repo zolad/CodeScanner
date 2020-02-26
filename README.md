@@ -1,6 +1,6 @@
 # CodeScanner
-usage:
-
+### Usage:
+``` 
  private int[] mCodeType = new int[]{QRCODE,CODE39, CODE93, CODE128};
  GraphicDecoder mGraphicDecoder = new YUVFrameDecoder(this，mCodeType);
 
@@ -29,3 +29,4 @@ usage:
 
 
     }
+``` 
